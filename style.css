@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("images/960x0.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: inherit;
+    background: transparent;
+    color: inherit;
+
+}
+
+#menu-button {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;    
+}
+
+#menu {
+    position: fixed;
+    top: 30vh;
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.section {
+    padding-left: 10vw;
+    padding-top: 30vh;
+}
+
+.icon-link {
+    text-decoration: none;
+    color:rgb(226, 40, 87);
+    margin-right: 1rem;
+}
+
+a:hover, .menu-item:hover, #menu-button:hover
+{
+    opacity: 0.7;
+}
+
+.emphasis {
+    color: #b66a0c;
+}
+
+#home h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+
+#home p 
+{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: rgb(142, 157, 165);
+}
+#contact p 
+{
+    font-size: 1.2rem;
+
+}
+#Author-image {
+    height: 8rem;
+    border-radius: 50%;
+    float: left;
+
+}
+
+
+#Projects, #about, #contact {
+    display: none;
+}
+
+#Projects-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project-image {
+    width:  290px;
+    height: 190px;
+    object-fit:fill;
+
+}
+.project-title {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+
+}
+#about p {
+    font-size: 1.2rem;
+    width: 60%;
+    padding: 1rem;
+    padding-top: 0px;
+
+    border-radius: 1rem;
+    background-color: rgba(255,255,255,0.07);
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

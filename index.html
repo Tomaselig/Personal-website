@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tómas Elí">
+    <!-- Font import from google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icon import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--Favicon icon import-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Tómas Elí</title>
+
+   <!--Þetta er prufusíða-->
+   <!---->
+
+
+</head>
+<body>
+
+
+<main id="main-section">
+    <div id="home" class="section">
+        <h1>Tómas <span class="emphasis">Elí</span> </h1>
+        <p>Tech savy guy trying to learn more each day. </p>
+        <a href="https:mbl.is" class="fa fa-chrome fa-4x icon-link" target="_blank"></a>
+        <a href="https://github.com/Tomaselig" class="fa fa-github fa-4x icon-link" target="_blank"></a>
+    </div>
+
+    <div id="Projects" class="section">
+        <h2>Projects</h2>
+
+        <div id="Projects-container">
+            <div>
+            
+                <a href="https://www.guidetophilippines.com" target="_blank">
+                    <img class="project-image" src="images/transparent.png" alt="Guide to the philippines">
+                    <p class="project-title">Web page</p>
+                </a>
+            </div>
+            <div>
+            
+                <a href="https://www.guidetophilippines.com" target="_blank">
+                    <img class="project-image" src="images/transparent.png" alt="">
+                    <p class="project-title">Same Web page again</p>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+    <div id="about" class="section">
+        <h2>About</h2>
+        <img id="Author-image" src="images/Tommi.jpg" alt="Image of the author">
+        <p>My name is <span Hi there class="emphasis">Tómas Elí </span> This page is a part of web coding course i took as a refresher and to sharpen my basic knowlegde in webcoding.</p>
+
+    </div>
+
+    <div id="contact" class="section">
+       <h2>Contact</h2>
+        <p>
+            Feel free to send me e-mail at 
+            <span class="emphasis"><a href="mailto:Tomas@guidetophilippine.com">Tomas@guidetophilippine.com</a></span> 
+        </p>                 
+    </div>
+
+
+
+</main>
+
+
+
+<!-- Menu -->
+<button id="menu-button" class="fa fa-bars fa-4x" onclick="toggleMenu()"></button>
+
+<div id="menu">
+    <button class="menu-item" onclick="showHomePage()">Home</button>
+    <button class="menu-item" onclick="showProjectsPage()">Projects</button>
+    <button class="menu-item" onclick="showAboutPage()">About</button>
+    <button class="menu-item" onclick="showContactPage()">Contact</button>
+
+
+</div>
+
+
+
+<script src="main.js"></script>
+
+
+</body>
+</html> 
